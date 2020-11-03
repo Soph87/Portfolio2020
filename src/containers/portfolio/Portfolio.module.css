@@ -1,8 +1,40 @@
+.codepen {
+    text-align: center;
+    padding: 0 0 2em 0;
+}
+
 .bottom {
     text-align: center;
-    padding: 4em 0 6em;
+    padding: 0 0 6em;
+}
+
+.center {
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .cta {
     margin-top: 2em;
+}
+
+.liensOndule {
+    color: #2e2a2e;
+    text-decoration: none;
+    background-image: url("data:image/svg+xml;charset=utf8,<svg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 5'><style type='text/css'>.squiggle{animation:shift .8s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}</style><path fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,4c5,0,5-3,10-3s5,3,10,3s5-3,10-3s5,3,10,3'/></svg>");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 0 0.3em;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.liensOndule:hover {
+    background: linear-gradient(to bottom, #ff9800 0%, #ff9800 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 1px 2.5px;
 }

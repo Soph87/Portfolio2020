@@ -31,7 +31,6 @@ function App() {
         }, 1000);
     }, [location.pathname]);
 
-    console.log(paddingHeight);
     return (
         <>
             <Header ref={headerref} />

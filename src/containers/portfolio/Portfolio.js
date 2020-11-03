@@ -4,6 +4,7 @@ import ReactPlayer from "react-player/youtube";
 //Components
 import Page from "../../components/page/Page";
 import Titre from "../../components/UI/h2/Titre2";
+import SousTitre from "../../components/UI/soustitre/Soustitre";
 import Projet from "../../components/projet/Projet";
 import Bouton from "../../components/UI/boutons/Bouton";
 import Modal from "../../components/modal/Modal";
@@ -41,7 +42,18 @@ function Portfolio(props) {
                 projets.map((projet, index) => {
                     return <Projet key={projet.id} data={projet} index={index} handleClickParent={handleProjetClick} />;
                 })}
-
+            <section className={styles.codepen}>
+                <Titre>Quand y en a plus, y en a encore&nbsp;!</Titre>
+                <div className={styles.center}>
+                    <SousTitre className={styles.widthmax}>
+                        J'aime bien tester tout plein de choses et faire du code expérimental. Vous pouvez voir mes
+                        petites expériences sur mon{" "}
+                        <a href='https://codepen.io/soph87' className={styles.liensOndule} target='blank'>
+                            codepen
+                        </a>
+                    </SousTitre>
+                </div>
+            </section>
             <section className={styles.bottom}>
                 <Titre>Mon profil vous plait&nbsp;? Entrons vite en contact alors&nbsp;!</Titre>
                 <div className={styles.cta}>

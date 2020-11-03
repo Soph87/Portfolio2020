@@ -8,7 +8,6 @@ import Footer from "../footer/Footer";
 import styles from "./Page.module.css";
 
 function Page(props) {
-    console.log(props.headerheight);
     return (
         <motion.div
             initial={{ opacity: 0 }}

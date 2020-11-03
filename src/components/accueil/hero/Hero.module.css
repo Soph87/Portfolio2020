@@ -19,6 +19,7 @@
     margin: 0.7em -15px 0.4em;
     position: relative;
     z-index: 1;
+    overflow-x: hidden;
 }
 
 #arc {
