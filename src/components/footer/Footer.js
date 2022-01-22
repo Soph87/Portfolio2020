@@ -20,7 +20,7 @@ function footer() {
                 <a href='https://www.linkedin.com/in/sophie-roche-dev/' target='_blank' rel='noopener noreferrer'>
                     <LinkedIn className={styles.icones} />
                 </a>
-                <a href='https://www.instagram.com/_sophie__roche_/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://www.instagram.com/sombrerosier/' target='_blank' rel='noopener noreferrer'>
                     <Insta className={styles.icones} />
                 </a>
             </div>
